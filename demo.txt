@@ -1,0 +1,34 @@
+USE THIS AS A GUIDE TO THE BASH DEMO!
+-------------------------------------
+
+Basic Navigation
+----------------
+pwd
+ls
+moving: ., .., ~, and /
+cd: go to ~/flatiron
+touch: create a new .txt file
+mkdir: today's work
+man: get help on `mv`
+mv: move the .txt file to the new folder
+ls <dir>: use `ls` to verify the move
+
+VIM
+---
+vim: edit the .txt file in VIM
+switch between insert and command modes (`i` and `ESC`)
+:: use `:` to bring up a command prompt inside VIM
+wq: save and exit
+
+More Commands
+-------------
+echo: use `echo` to print to screen; use `echo <text> >>` to append to a .txt file
+head and tail: 
+less vs. open vs. code vs. vim
+
+grep: use `grep` to find the line in a text file tha contains a certain pattern (use `man grep` for help)
+curl
+curl <URL> | grep <search term> >> <text file>
+
+Bash Scripts
+------------
