@@ -26,7 +26,7 @@ echo: use `echo` to print to screen; use `echo <text> >>` to append to a .txt fi
 head and tail: 
 less vs. open vs. code vs. vim
 
-grep: use `grep` to find the line in a text file tha contains a certain pattern (use `man grep` for help)
+grep: use `grep` to find the line in a text file that contains a certain pattern (use `man grep` for help)
 curl
 curl <URL> | grep <search term> >> <text file>
 
